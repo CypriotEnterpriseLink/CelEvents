@@ -4,7 +4,8 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+	  	"barryvdh/laravel-ide-helper": "1.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -13,6 +14,9 @@
 			"app/models",
 			"app/database/migrations",
 			"app/database/seeds",
+		  	"app/facades",
+		  	"app/serviceproviders",
+		  	"app/modules",
 			"app/tests/TestCase.php"
 		]
 	},
