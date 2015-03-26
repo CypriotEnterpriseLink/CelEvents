@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'MainController@getIndexPage');
+Route::get('{slug}', 'MainController@getIndividualEvent');

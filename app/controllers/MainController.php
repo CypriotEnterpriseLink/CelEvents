@@ -13,4 +13,8 @@ class MainController extends \BaseController{
 
         return View::make('index')->with(['events'=>$event]);
     }
+    public function getIndividualEvent($slug){
+
+        return View::make('single')->with(['slug'=>$slug]);
+    }
 }
